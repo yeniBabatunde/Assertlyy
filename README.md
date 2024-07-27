@@ -106,10 +106,10 @@ class NetworkServiceTests: AssertlyViewModelTests<MockNetworkService> {
     }
 }
 ```
-**Why Assertly?
-Assertly was developed to address common pain points in iOS unit testing:**
+**Why Assertly?**
+Assertly was developed to address common pain points in iOS unit testing:
 
-Verbosity: Standard XCTest assertions often require verbose syntax. Assertly's custom assertions are more concise and expressive.
+**Verbosity:** Standard XCTest assertions often require verbose syntax. Assertly's custom assertions are more concise and expressive.
 Asynchronous Testing Complexity: Testing async code with XCTest can be cumbersome. Assertly provides utilities to simplify this process.
 Inconsistent Testing Patterns: Teams often develop inconsistent testing styles. Assertly encourages a unified approach to writing tests.
 Limited Error Information: XCTest's default error messages can be vague. Assertly's assertions provide more context when tests fail.
