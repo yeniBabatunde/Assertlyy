@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "77552979-13A2-43E3-9F74-774140B5473A"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D5DF9397-67CE-4A0A-A296-66438D7154E3"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Assertly/SampleUse/AssertlySampleViewControllerTest.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "56"
+            endingLineNumber = "56"
+            landmarkName = "testUpdateUIWithUser()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "D5DF9397-67CE-4A0A-A296-66438D7154E3 - f00cf9a0b183931e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AssertlyTests.AssertlySampleViewControllerTest.testUpdateUIWithUser() -&gt; ()"
+                  moduleName = "AssertlyTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sharon-omoyeni/Documents/Github/OpenSource/Assertly/Assertly/SampleUse/AssertlySampleViewControllerTest.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "57"
+                  endingLineNumber = "57"
+                  offsetFromSymbolStart = "124">
+               </Location>
+               <Location
+                  uuid = "D5DF9397-67CE-4A0A-A296-66438D7154E3 - f00cf9a0b18390ff"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AssertlyTests.AssertlySampleViewControllerTest.testUpdateUIWithUser() -&gt; ()"
+                  moduleName = "AssertlyTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sharon-omoyeni/Documents/Github/OpenSource/Assertly/Assertly/SampleUse/AssertlySampleViewControllerTest.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "56"
+                  endingLineNumber = "56"
+                  offsetFromSymbolStart = "124">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
