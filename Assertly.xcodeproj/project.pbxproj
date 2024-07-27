@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		5861BB8C2C38CCC2001382DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5861BB8B2C38CCC2001382DB /* AppDelegate.swift */; };
 		5861BB8E2C38CCC2001382DB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5861BB8D2C38CCC2001382DB /* SceneDelegate.swift */; };
-		5861BB902C38CCC2001382DB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5861BB8F2C38CCC2001382DB /* ViewController.swift */; };
 		5861BB952C38CCC5001382DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5861BB942C38CCC5001382DB /* Assets.xcassets */; };
 		5861BB982C38CCC5001382DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5861BB962C38CCC5001382DB /* LaunchScreen.storyboard */; };
 		5861BBA32C38CCC5001382DB /* AssertlyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5861BBA22C38CCC5001382DB /* AssertlyTests.swift */; };
@@ -17,7 +16,7 @@
 		5861BBAF2C38CCC5001382DB /* AssertlyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5861BBAE2C38CCC5001382DB /* AssertlyUITestsLaunchTests.swift */; };
 		5861BBBE2C38CF07001382DB /* AssertUnitTestable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5861BBBC2C38CEE4001382DB /* AssertUnitTestable.swift */; };
 		5861BBC42C38D0F9001382DB /* AssertlyNetworkingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5861BBC32C38D0F9001382DB /* AssertlyNetworkingTests.swift */; };
-		5861BBCC2C38D437001382DB /* ViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5861BBCB2C38D437001382DB /* ViewModelTests.swift */; };
+		5861BBCC2C38D437001382DB /* AssertlyViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5861BBCB2C38D437001382DB /* AssertlyViewModelTests.swift */; };
 		5861BBCD2C38D62F001382DB /* AssertlyNetworkingProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5861BBBF2C38CF80001382DB /* AssertlyNetworkingProtocol.swift */; };
 		5861BBD12C38D6BD001382DB /* extension+XCTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5861BBCE2C38D68C001382DB /* extension+XCTestCase.swift */; };
 		5861BBD32C38D6D1001382DB /* TestConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5861BBD22C38D6D1001382DB /* TestConfiguration.swift */; };
@@ -57,7 +56,6 @@
 		5861BB882C38CCC2001382DB /* Assertly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Assertly.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5861BB8B2C38CCC2001382DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5861BB8D2C38CCC2001382DB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5861BB8F2C38CCC2001382DB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5861BB942C38CCC5001382DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5861BB972C38CCC5001382DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5861BB992C38CCC5001382DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -72,7 +70,7 @@
 		5861BBC32C38D0F9001382DB /* AssertlyNetworkingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssertlyNetworkingTests.swift; sourceTree = "<group>"; };
 		5861BBC72C38D236001382DB /* AssertlyViewModelProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssertlyViewModelProtocol.swift; sourceTree = "<group>"; };
 		5861BBC92C38D332001382DB /* MockViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockViewModel.swift; sourceTree = "<group>"; };
-		5861BBCB2C38D437001382DB /* ViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelTests.swift; sourceTree = "<group>"; };
+		5861BBCB2C38D437001382DB /* AssertlyViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssertlyViewModelTests.swift; sourceTree = "<group>"; };
 		5861BBCE2C38D68C001382DB /* extension+XCTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "extension+XCTestCase.swift"; sourceTree = "<group>"; };
 		5861BBD22C38D6D1001382DB /* TestConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestConfiguration.swift; sourceTree = "<group>"; };
 		5861BBD42C38D6EC001382DB /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
@@ -115,6 +113,7 @@
 		5861BB7F2C38CCC2001382DB = {
 			isa = PBXGroup;
 			children = (
+				5861BBDF2C38E3F7001382DB /* SampleUse */,
 				5861BB8A2C38CCC2001382DB /* Assertly */,
 				5861BBA12C38CCC5001382DB /* AssertlyTests */,
 				5861BBAB2C38CCC5001382DB /* AssertlyUITests */,
@@ -136,10 +135,7 @@
 			isa = PBXGroup;
 			children = (
 				5861BBC52C38D15F001382DB /* App */,
-				588AF5F12C39ACBC0068FE04 /* Model */,
-				5861BBDF2C38E3F7001382DB /* SampleUse */,
 				5861BBD82C38D7FF001382DB /* AssertlyMain */,
-				5861BB8F2C38CCC2001382DB /* ViewController.swift */,
 				5861BBBB2C38CEC9001382DB /* Utils */,
 				5861BBC62C38D16C001382DB /* Resources */,
 				5861BB992C38CCC5001382DB /* Info.plist */,
@@ -209,7 +205,7 @@
 			children = (
 				5861BBC72C38D236001382DB /* AssertlyViewModelProtocol.swift */,
 				5861BBC92C38D332001382DB /* MockViewModel.swift */,
-				5861BBCB2C38D437001382DB /* ViewModelTests.swift */,
+				5861BBCB2C38D437001382DB /* AssertlyViewModelTests.swift */,
 			);
 			path = ViewModelBaseTest;
 			sourceTree = "<group>";
@@ -228,7 +224,8 @@
 		5861BBDF2C38E3F7001382DB /* SampleUse */ = {
 			isa = PBXGroup;
 			children = (
-				588AF5FF2C3A25C60068FE04 /* Controller */,
+				588AF5F12C39ACBC0068FE04 /* Model */,
+				588AF5FF2C3A25C60068FE04 /* SampleController */,
 				588AF5F72C39F7FC0068FE04 /* SampleUseViewModel */,
 			);
 			path = SampleUse;
@@ -251,13 +248,13 @@
 			path = SampleUseViewModel;
 			sourceTree = "<group>";
 		};
-		588AF5FF2C3A25C60068FE04 /* Controller */ = {
+		588AF5FF2C3A25C60068FE04 /* SampleController */ = {
 			isa = PBXGroup;
 			children = (
 				588AF5ED2C39A82F0068FE04 /* MockSampleViewController.swift */,
 				588AF5F42C39AFE30068FE04 /* AssertlySampleViewControllerTest.swift */,
 			);
-			path = Controller;
+			path = SampleController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -398,7 +395,6 @@
 			files = (
 				588AF5EE2C39A82F0068FE04 /* MockSampleViewController.swift in Sources */,
 				588AF5F92C39F8120068FE04 /* SampleViewModel.swift in Sources */,
-				5861BB902C38CCC2001382DB /* ViewController.swift in Sources */,
 				588AF5F32C39ACC80068FE04 /* Users.swift in Sources */,
 				5861BBDE2C38DE24001382DB /* Extension+Array.swift in Sources */,
 				5861BBD52C38D6EC001382DB /* NetworkError.swift in Sources */,
@@ -419,7 +415,7 @@
 				5861BBA32C38CCC5001382DB /* AssertlyTests.swift in Sources */,
 				588AF6012C3A2B1F0068FE04 /* AssertlySampleUserViewModelTests.swift in Sources */,
 				5861BBD12C38D6BD001382DB /* extension+XCTestCase.swift in Sources */,
-				5861BBCC2C38D437001382DB /* ViewModelTests.swift in Sources */,
+				5861BBCC2C38D437001382DB /* AssertlyViewModelTests.swift in Sources */,
 				5861BBC42C38D0F9001382DB /* AssertlyNetworkingTests.swift in Sources */,
 				5861BBD72C38D70D001382DB /* ErrorHandlingTests.swift in Sources */,
 				5861BBCD2C38D62F001382DB /* AssertlyNetworkingProtocol.swift in Sources */,
