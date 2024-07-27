@@ -8,7 +8,7 @@
 import XCTest
 @testable import Assertly
 
-class AssertlySampleViewControllerTest: ViewModelTests<MockViewModel> {
+class AssertlySampleViewControllerTest: AssertlyViewModelTests<MockViewModel> {
     
     var viewController: MockSampleViewController!
     

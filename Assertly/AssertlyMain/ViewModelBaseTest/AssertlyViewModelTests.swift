@@ -8,7 +8,7 @@
 import XCTest
 @testable import Assertly
 
-public class ViewModelTests<T: ViewModelProtocol>: XCTestCase {
+public class AssertlyViewModelTests<T: ViewModelProtocol>: XCTestCase {
     
     public var sut: T?
     

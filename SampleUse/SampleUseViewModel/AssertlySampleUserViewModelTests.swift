@@ -8,7 +8,7 @@
 import XCTest
 @testable import Assertly
 
-final class AssertlySampleUserViewModelTests: ViewModelTests<MockViewModel> {
+final class AssertlySampleUserViewModelTests: AssertlyViewModelTests<MockViewModel> {
     
     override func createDependencies() -> MockViewModel {
         return MockViewModel()
